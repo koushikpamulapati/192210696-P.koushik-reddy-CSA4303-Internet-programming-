@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tuition Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('How-To-Start-a-Your-Own-Tuition-Center-2.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 1rem;
+        }
+        .navbar h1 {
+            margin: 0;
+        }
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+        .menu-btn {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .menu-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .menu-content a:hover {
+            background-color: #575757;
+        }
+        .menu:hover .menu-content {
+            display: block;
+        }
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+        video {
+            width: 80%;
+            margin-top: 20px;
+            border: 5px solid white;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1>Tuition Center</h1>
+        <div class="menu">
+            <button class="menu-btn">Menu</button>
+            <div class="menu-content">
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <p>Email: info@tuitioncenter.com</p>
+        <p>Phone: +1 (234) 567-8901</p>
+        <p>Address: 123 Tuition Lane, Education City, Country</p>
+
+        <!-- Background Video -->
+        <video autoplay muted loop>
+            <source src="Coaching_Institute_Advertisement_Video__Coaching_Institute_Video__Video_Production_agency_in_India.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tuition Center. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
